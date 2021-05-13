@@ -1,4 +1,5 @@
 {
+  "type":"module",
   "name": "bankprojectbackend",
   "version": "1.0.0",
   "description": "",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/Detox23/BankProject#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
   }
 }
